@@ -1,0 +1,46 @@
+/* src/components/CatImage.module.css */
+
+.container {
+  text-align: center;
+  background: #fffaf0;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.image {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+
+.button {
+  background-color: #ffb6c1;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background-color: #ff9aa2;
+}
+
+.loading {
+  font-size: 18px;
+  color: #555;
+}

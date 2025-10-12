@@ -1,0 +1,11 @@
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+.content {
+  margin-top: 20px;
+}
